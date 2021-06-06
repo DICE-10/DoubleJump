@@ -1,0 +1,14 @@
+name: DoubleJumpol
+version: ${project.version}
+main: com.dice_programming_etc.DoubleJump.DoubleJump
+api-version: 1.16
+authors: [ DICE ]
+description: This plugin provides a double jump.
+website: https://www.dice-programming-etc.com
+commands:
+  wjump:
+    aliases: [ wj ] #コマンドの別名
+    description: Toggles the double jump on and off. #プラグインの説明
+    permission: double_jump.command.wjump
+    permission-message: You do not have the authority.
+    #usage: /wjump on[off]
